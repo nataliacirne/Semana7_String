@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style>
+.corpo{
+    background: rgb(64, 202, 133);
+}
+</style>
+<body class="corpo">
+    <ul></ul>
+</body>
+<script>
+    var elemento_pai = document.body;
+    var titulo = document.createElement('li');
+    var texto = document.createTextNode('item');
+    titulo.appendChild(texto);
+    elemento_pai.appendChild(titulo);
+</script>
+</html>
